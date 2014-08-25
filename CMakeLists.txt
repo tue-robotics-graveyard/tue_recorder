@@ -37,3 +37,4 @@ target_link_libraries(kinect_recorder
 						tue_recorder_base
 						${catkin_LIBRARIES}
 						)
+add_dependencies(tue_recorder_base ${PROJECT_NAME}_generate_messages_cpp)
