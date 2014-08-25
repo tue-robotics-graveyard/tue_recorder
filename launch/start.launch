@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<launch>
+    <node name="recorder_top_kinect" pkg="tue_recorder" type="kinect_recorder" output="screen" args="
+        rec_bae_dir=$(optenv HOME)/ros/rec"/>
+</launch>
