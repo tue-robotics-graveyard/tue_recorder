@@ -17,7 +17,7 @@ generate_messages(DEPENDENCIES sensor_msgs)
 
 catkin_package(
   INCLUDE_DIRS include
-  LIBRARIES tue_recorder
+  LIBRARIES tue_recorder_base
   CATKIN_DEPENDS cv_bridge message_filters rosbag roscpp sensor_msgs topic_tools message_runtime
 )
 
